@@ -17,3 +17,12 @@
 @import url(../blocks/hero/__subtitle/hero__subtitle.css);
 @import url(../blocks/hero/__image/hero__image.css);
 @import url(../blocks/hero/__image-name/hero__image-name.css);
+
+/* ------Intro------ */
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__item/intro__item.css);
+@import url(../blocks/intro/__accent/intro__accent.css);
