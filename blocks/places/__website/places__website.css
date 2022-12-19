@@ -1,0 +1,32 @@
+.places__website {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration: underline;
+  color: #fff;
+  align-self: end;
+  position: relative;
+  transition: opacity .3s linear;
+}
+
+.places__website::before {
+  content: 'URL';
+  position: absolute;
+  top: -20px;
+  left: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #aaa;
+}
+
+.places__website:hover {
+  opacity: .8;
+}
