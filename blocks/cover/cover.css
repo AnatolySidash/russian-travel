@@ -1,0 +1,30 @@
+.cover {
+  max-width: 1184px;
+  height: 740px;
+  background: url(../../images/05_cover/background.jpg) center no-repeat;
+  background-size: cover;
+  margin: 0 auto 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1184px;
+  height: 740px;
+  background: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity .6s ease-in-out;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
+}

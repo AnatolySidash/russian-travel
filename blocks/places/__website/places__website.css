@@ -13,6 +13,10 @@
   transition: opacity .3s linear;
 }
 
+.places__website:hover {
+  opacity: .8;
+}
+
 .places__website::before {
   content: 'URL';
   position: absolute;
@@ -25,8 +29,4 @@
   line-height: 1;
   letter-spacing: 2px;
   color: #aaa;
-}
-
-.places__website:hover {
-  opacity: .8;
 }
