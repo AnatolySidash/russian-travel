@@ -12,3 +12,9 @@
   text-transform: uppercase;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .hero__image-name {
+    padding: 0 0 0 24px;
+  }
+}

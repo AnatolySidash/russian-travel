@@ -2,7 +2,7 @@
   max-width: 1184px;
   height: 740px;
   background: url(../../images/05_cover/background.jpg) center no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin: 0 auto 92px;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 1184px;
+  max-width: 1184px;
+  width: 100%;
   height: 740px;
   background: #2A2C2F;
   opacity: 0.3;
@@ -27,4 +28,28 @@
 
 .cover:hover::before {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+    height: 640px;
+  }
+
+  .cover::before {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+    height: 480px;
+    margin: 0 auto 88px;
+  }
+
+  .cover::before {
+    max-width: 768px;
+    height: 480px;
+  }
 }
