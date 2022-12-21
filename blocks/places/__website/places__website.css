@@ -20,7 +20,7 @@
 .places__website::before {
   content: 'URL';
   position: absolute;
-  top: -20px;
+  top: -22px;
   left: 0;
   font-family: 'Inter';
   font-style: normal;
@@ -29,4 +29,24 @@
   line-height: 1;
   letter-spacing: 2px;
   color: #aaa;
+}
+
+@media screen and (max-width: 580px) {
+  .places__website {
+    padding: 0 0 0 24px;
+  }
+
+  .places__website::before {
+    padding: 0 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__website {
+    padding: 0 0 0 16px;
+  }
+
+  .places__website::before {
+    padding: 0 0 0 16px;
+  }
 }

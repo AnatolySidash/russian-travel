@@ -1,15 +1,30 @@
 .places__paragraph {
-  width: 484px;
+  max-width: 484px;
 }
 
 @media screen and (max-width: 1024px) {
   .places__paragraph {
-    width: 456px;
+    max-width: 456px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .places__paragraph {
-    width: 352px;
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .places__paragraph {
+    width: 100%;
+    max-width: 532px;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__paragraph {
+    max-width: 288px;
+    padding: 0 16px;
   }
 }

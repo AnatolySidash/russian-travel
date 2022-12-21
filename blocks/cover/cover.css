@@ -53,3 +53,28 @@
     height: 480px;
   }
 }
+
+@media screen and (max-width: 580px) {
+  .cover {
+    max-width: 580px;
+    height: 380px;
+  }
+
+  .cover::before {
+    max-width: 580px;
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+    height: 200px;
+    margin: 0 auto 64px;
+  }
+
+  .cover::before {
+    max-width: 320px;
+    height: 200px;
+  }
+}

@@ -17,3 +17,20 @@
     max-width: 300px;
   }
 }
+
+@media screen and (max-width: 580px) {
+  .places__title {
+    max-width: 100%;
+    padding: 0 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__title {
+    max-width: 100%;
+    padding: 0 0 0 16px;
+    font-size: 32px;
+    line-height: 1.1;
+    margin-bottom: 24px;
+  }
+}
