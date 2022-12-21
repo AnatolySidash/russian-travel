@@ -7,4 +7,4 @@
 1. Сделать перевод сайта на английский язык
 2. Добавить новые места для посещения
 
-Ссылка на Github Pages: 
+Ссылка на Github Pages: https://anatolysidash.github.io/russian-travel/
