@@ -15,8 +15,9 @@
   .places {
     max-width: 720px;
     width: 100%;
-    padding: 0 24px;
-    margin: 0 0 90px 0;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 90px;
     box-sizing: content-box;
   }
 }
@@ -24,15 +25,14 @@
 @media screen and (max-width: 580px) {
   .places {
     max-width: 580px;
-    width: 100%;
-    padding: 0 0;
-    margin: 0 0 90px 0;
+    padding-left: 0;
+    padding-right: 0;
     box-sizing: content-box;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
-    margin: 0 0 66px 0;
+    margin-bottom: 66px;
   }
 }

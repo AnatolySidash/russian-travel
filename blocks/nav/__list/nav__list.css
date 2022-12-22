@@ -1,4 +1,4 @@
-.footer__list {
+.nav__list {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -7,9 +7,9 @@
 }
 
 @media screen and (max-width: 580px) {
-  .footer__list {
+  .nav__list {
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 0 48px 0;
+    margin-bottom: 48px;
   }
 }

@@ -1,30 +1,32 @@
-.places__paragraph {
+.place__paragraph {
   max-width: 484px;
 }
 
 @media screen and (max-width: 1024px) {
-  .places__paragraph {
+  .place__paragraph {
     max-width: 456px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .places__paragraph {
+  .place__paragraph {
     max-width: 352px;
   }
 }
 
 @media screen and (max-width: 580px) {
-  .places__paragraph {
+  .place__paragraph {
     width: 100%;
     max-width: 532px;
-    padding: 0 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .places__paragraph {
+  .place__paragraph {
     max-width: 288px;
-    padding: 0 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

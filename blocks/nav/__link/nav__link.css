@@ -1,7 +1,6 @@
-.footer__link {
+.nav__link {
   display: block;
   text-decoration: none;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -10,12 +9,12 @@
   transition: opacity .3s linear;
 }
 
-.footer__link:hover {
+.nav__link:hover {
   opacity: .8;
 }
 
 @media screen and (max-width: 580px) {
-  .footer__link {
+  .nav__link {
     font-size: 24px;
     line-height: 1;
   }
