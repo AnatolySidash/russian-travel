@@ -1,5 +1,6 @@
 .place__paragraph {
   max-width: 484px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,13 +18,12 @@
 @media screen and (max-width: 580px) {
   .place__paragraph {
     width: 100%;
-    max-width: 532px;
     padding-left: 24px;
     padding-right: 24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 389px) {
   .place__paragraph {
     max-width: 288px;
     padding-left: 16px;
