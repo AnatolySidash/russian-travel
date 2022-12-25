@@ -1,0 +1,11 @@
+.video__title {
+  padding: 0 0 0 30px;
+  margin: 0 0 18px 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 39px;
+  color: #fff;
+  max-width: 300px;
+  opacity: 1;
+}
