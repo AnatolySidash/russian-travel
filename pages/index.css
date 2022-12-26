@@ -80,6 +80,15 @@
 /* ------Section-subtitle------ */
 @import url(../blocks/section-subtitle/section-subtitle.css);
 
+/* ------Comments------ */
+
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/comments/__content/comments__content.css);
+@import url(../blocks/comments/__item/comments__item.css);
+@import url(../blocks/comments/__photo/comments__photo.css);
+@import url(../blocks/comments/__text/comments__text.css);
+@import url(../blocks/comments/__author/comments__author.css);
+
 /* ------Cover------ */
 
 @import url(../blocks/cover/cover.css);

@@ -1,0 +1,9 @@
+.comments__content {
+  width: 100%;
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  gap: 19px;
+}
